@@ -5,7 +5,7 @@ production:
   pool: 5
   username: owums_db_user
   password: owums_db_user_password
-  socket: /var/run/mysqld/mysqld.sock
+  host: localhost
 
 
 development:
@@ -15,7 +15,7 @@ development:
   pool: 5
   username: owums_db_user
   password: owums_db_user_password
-  socket: /var/run/mysqld/mysqld.sock
+  host: localhost
 
 
 test:
@@ -25,4 +25,4 @@ test:
   pool: 5
   username: owums_db_user
   password: owums_db_user_password
-  socket: /var/run/mysqld/mysqld.sock
+  host: localhost
