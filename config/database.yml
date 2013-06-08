@@ -1,26 +1,26 @@
 production:
-  adapter: mysql2
+  adapter: mysql
   encoding: utf8
-  database: owums_db
-  pool: 5
-  username: owums_db_user
-  password: owums_db_user_password
-  socket: /var/run/mysqld/mysqld.sock
+  database: owm_db
+  username: owm_db_user
+  password: ********
+  host: 127.0.0.1
+  port: 3306
 
 development:
-  adapter: mysql2
+adapter: mysql
   encoding: utf8
-  database: owums_db
-  pool: 5
-  username: owums_db_user
-  password: owums_db_user_password
-  socket: /var/run/mysqld/mysqld.sock
+  database: owm_db
+  username: owm_db_user
+  password: ******
+  host: 127.0.0.1
+  port: 3306
 
 test:
-  adapter: mysql2
+adapter: mysql
   encoding: utf8
-  database: owums_db
-  pool: 5
-  username: owums_db_user
-  password: owums_db_user_password
-  socket: /var/run/mysqld/mysqld.sock
+  database: owm_db
+  username: owm_db_user
+  password: ******
+  host: 127.0.0.1
+  port: 3306
